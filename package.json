@@ -1,13 +1,16 @@
 {
-  "name": "node-summary",
-  "version": "1.2.0",
+  "name": "@sforge/node-summary",
+  "version": "1.2.8",
   "type": "module",
   "description": "Summarizes text using a naive summarization algorithm",
   "main": "./lib/summary.js",
   "scripts": {
     "test": "mocha --compilers js:babel-core/register --require should --reporter spec"
   },
-  "repository": "git://github.com/jbrooksuk/node-summary.git",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/shanto/node-summary.git"
+  },
   "keywords": [
     "summary",
     "text",
@@ -27,6 +30,14 @@
     "mocha": "^3.2.0",
     "should": "^11.2.1"
   },
-  "author": "James Brooks <jbrooksuk@me.com>",
-  "readmeFilename": "README.md"
+  "author": "Shaan <mail@shaan.icu>",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shanto/node-summary/issues"
+  },
+  "homepage": "https://github.com/shanto/node-summary#readme"
 }
